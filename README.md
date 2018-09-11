@@ -43,7 +43,7 @@ The ISQTB is an agency that focusses on software testing. They have seven princi
 7. Absence of errors fallacy
    - "I can't see any bugs so there aren't any bugs" is a huge fallacy. Having tests does not mean your code is perfect.
 
-## Testing strategy
+# Testing strategy
 
 A testing strategy describes the scope of testing in the software development process.
 
@@ -95,3 +95,36 @@ Subjects that are covered in a testing strategy:
 ## Software development process V-model
 
 ![V-model](https://i.imgur.com/SVbvDgx.png)
+
+# Design by contract
+
+Introduced by the Eiffel programming language by the French computer scientist Bertrand Meyer. Design by Contract is based on the idea of Hoare Logic.
+
+Design by contract allows programmers to build software on top of the software specifications that checks itself in runtime.
+
+It means that software architects have to describe formal, precise and verifyable interface specifications that expand the standard definition of abstract data types with preconditions, postconditions and invariants. These specifcations are called "contracts".
+
+If preconditions are not respected by the client then the service provider should deny the service.
+
+If a postcondition or invariant is violated then this is a problem of the service provider. The problem can be an mistake in the implementation or a mistake in the precondition specification.
+
+![Design by contract diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Design_by_contract.svg/512px-Design_by_contract.svg.png)
+
+## Hoare logic
+
+Hoare logic is a formal system of logic rules that evaluate the correctness of a computer program.
+
+## Hoare Triple
+
+{P} C {Q}
+where:
+
+- {P} - Precondition (assertion)
+- C - Command
+- {Q} - Postcondition (assertion)
+
+## Assertion
+
+An assertion is a declaration that a predicate (function that returns a boolean value) is expected to be true at the moment the code runs.
+
+Assertions are used to test your code.
