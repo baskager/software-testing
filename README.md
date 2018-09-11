@@ -23,3 +23,22 @@ Static testing is software testing where the code is not executed.
 ## Dynamic testing
 
 In dynamic testing the code is executed with test data.
+
+## ISQTB
+
+The ISQTB is an agency that focusses on software testing. They have seven principles of software testing, these are:
+
+1. Testing shows the presence of bugs
+   - "Program testing can be used to show the presence of bugs, but never to show their absence!" ~ Edgar Dijkstra
+2. Exhaustive testing is impossible
+   - There is a limit to how much you test certain features. You can spend ages testing every tiny thing, this is not productive.
+3. Early testing
+   - Test as early as possible
+4. Defect clustering
+   - Not all functionalities in software will have the same frequency of bugs. Usually the most bugs occur in the most complex logic of your code.
+5. The pesticide paradox
+   - Bugs are like bacteria, they develop resitance to antibiotics. New antibiotics have to be developed.
+6. Testing is context dependent
+   - A website has a different context than medicial equipment. A simple blog can be offline for a few minutes without any major damage. If medical equipment fails it can cause casualties. The importance of certain tests relies on the context.
+7. Absence of errors fallacy
+   - "I can't see any bugs so there aren't any bugs" is a huge fallacy. Having tests does not mean your code is perfect.
