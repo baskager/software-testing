@@ -42,3 +42,56 @@ The ISQTB is an agency that focusses on software testing. They have seven princi
    - A website has a different context than medicial equipment. A simple blog can be offline for a few minutes without any major damage. If medical equipment fails it can cause casualties. The importance of certain tests relies on the context.
 7. Absence of errors fallacy
    - "I can't see any bugs so there aren't any bugs" is a huge fallacy. Having tests does not mean your code is perfect.
+
+## Testing strategy
+
+A testing strategy describes the scope of testing in the software development process.
+
+Subjects that are covered in a testing strategy:
+
+- Goals
+- Testing methods
+- Time/deadlines
+- (Human) resources
+- Testing environment
+- Risks
+
+### Testing strategies according to ISQTB
+
+- Analytical
+  - Risk based
+- Model-based
+  - Test a model
+- Methodical
+  - Based on an industry standard (ISO 9126).
+- Process - or standard-compliant
+  - IEEE 829 standard, XP, SCRUM
+- Dynamic
+  - Focus on rapid adaptation or known weaknesses in software. Finding as much bugs as possible.
+- Consultative or directed
+  - Ask the user or developers of the system what to test (typically emphasizes the later stages of testing simply due the lack of recognition of the value of early testing)
+- Regression-averse
+  - Regression-averse strategies have in common a set of procedures - usually automated - that allow them to detect regression defects.
+
+## Testing levels
+
+- Development tests.
+  - Unit tests.
+    - Tests one unit, a function for example.
+  - Unit integration tests
+    - Testing multiple units, like multiple functions that rely on eachother.
+- System tests.
+  - System tests.
+    - Tests one system.
+  - System integration tests
+    - Test multiple systems that work together.
+- Acceptation tests.
+  - Functional Acceptation Test (FAT).
+    - Does a feature do what I described it to do.
+  - User Acceptation Test (UAT).
+    - Does a feature do what a user expects it to do.
+  - Product Acceptation Test (PAT).
+
+## Software development process V-model
+
+![V-model](https://i.imgur.com/SVbvDgx.png)
