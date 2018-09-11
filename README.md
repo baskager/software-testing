@@ -15,3 +15,11 @@ The cost of this failure was $7 billion dollars of investments and $500 milllion
 ![Ariane 5 rocket failure](https://www.oddee.com/wp-content/uploads/_media/imgs/articles2/a98637_oddee_space_ari.jpg)
 
 Software testing is a method that attempts to prevent these failures from happening. Bugs can be expensive for organisations and annoying for your user base. People will rely on your software so it is very important for your software to be reliable.
+
+## Static testing
+
+Static testing is software testing where the code is not executed.
+
+## Dynamic testing
+
+In dynamic testing the code is executed with test data.
