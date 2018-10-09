@@ -6,7 +6,7 @@ import org.junit.runners.Suite.SuiteClasses;
 import io.kager.shapes.Test_Rechthoek;
 
 @RunWith(Suite.class)
-@SuiteClasses({Test_Rechthoek.class, Test_Vierkant_Before_Refactor.class})
+@SuiteClasses({Test_Rechthoek.class, Test_Vierkant.class})
 public class Test_Figuren {
 
 }

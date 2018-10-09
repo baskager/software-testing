@@ -45,7 +45,6 @@ public class Test_Vierkant {
 		assertThat(vierkant.getZijdes(), is(Integer.MAX_VALUE));
 	}
 
-	
 	@Test
 	public void testMethodGetOppervlakteWithZijdesIs10_GetOppervlakteIs100() {
 		int expectedValue = 100;
